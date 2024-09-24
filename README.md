@@ -24,19 +24,17 @@ DataManipulation.R -- This R file takes the FoRAGE_db_V4_Sept_17_2023_mod.csv fi
 
 ### Files and code to perform analyses and make plots
 
-forage_modified.csv -- This csv file is created by DataManipulation.R and contains the FoRAGE database along with along with the predicted abundances of prey and metabolic rates of predators.
+forage_modified.csv -- This csv file is created by DataManipulation.R and contains the FoRAGE database along with the predicted abundances of prey and metabolic rates of predators.
 
-Predicting_FR_Parameters.R -- This R file does the bulk of the analyses that are presented in the main text. That is, this file predicts the values of the space clearance rates and handling times of each study, examines the predicted relationship between the half-saturation constant and high prey abundances, and examines the predicted relationship between the space clearance rates and handling times.
+Predicting_FR_Parameters.R -- This R file does the bulk of the analyses that are presented in the main text. That is, this file predicts the values of the space clearance rates and handling times of each study, examines the predicted relationship between the half-saturation constant and high prey abundances, and examines the predicted relationship between the space clearance rates and handling times. This file also produces SCR_Prediction_Plot.RData and h_Prediction_Plot.RData that are used by Figure1.R to create Figure 1 of the manuscript.
 
 FieldPredatorPrey.csv -- This csv file contains system-specific estimates of the parameters necessary in the theory to predict space clearance rates and handling times for a subset of studies in FoRAGE that are field studies for which the required information could be found and which met the criteria for inclusion laid out in the methods section of the associated paper. 
 
-FieldPredictions.R -- This R file uses the FieldPredatorPrey.csv file to make space clearance rate and handling time predictions for the field studies.
+FieldPredictions.R -- This R file uses the FieldPredatorPrey.csv file to make space clearance rate and handling time predictions for the field studies. This file produces FieldHandlingPlot.RData, FieldAttackRatePlot.RData, and FieldPlotLegend.RData which are used by Figure1.R to produce Figure 1
 
 AllometryPredictions.R -- This R file performs the regressions necessary to assess the theory's predicted allometric scaling relationships of the functional response parameters and then assesses the correspondence between the predicted and observed allometric relationships.
 
-Figure1.R -- This R file contains the code to produce Figure 1 of the main text of the associated manuscript using plots created in the Predicting_FR_Parameters.R and FieldPredictions.R files which are saved within files created in those scripts as .RData and .RData.
-
-Figure2.R -- This R file creates Figure 2 of the main text 
+Figure1.R -- This R file contains the code to produce Figure 1 of the main text of the associated manuscript using plots created in the Predicting_FR_Parameters.R and FieldPredictions.R files and saved as RData files.
 
 SensitivityAnalysis.R -- This R file performs the sensitivity analysis of the space clearance rate and handling time predictions that are presented in Supplemental Material S2 of the associated manuscript
 
