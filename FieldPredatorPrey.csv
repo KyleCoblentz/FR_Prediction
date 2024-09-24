@@ -1,0 +1,10 @@
+﻿Dataset,Study,Predator,PredatorMetabolicRate,BasalMRorDEE,PredatorMetabolicRateSource,Prey,PreySize_g,kJpergValue,kJValueSource,LowPreyDensity,HighPreyDensity,System,Notes
+144,Odonoghue1998,Lynx canadensis,6048,DEE,Menziesetal.2022.CanadianJournalZoology,Lepus americanus,1600,4.5,Menziesetal.2022.CanadianJournalZoology,1.13E-05,1.91E-04,Lynx-Hare,
+143,Odonoghue1998,Canis latrans,4511,DEE,Carboneetal.2007.PLoSBiology,Lepus americanus,1600,4.5,Menziesetal.2022.CanadianJournalZoology,1.08E-05,1.92E-04,Coyote-Hare,
+188,Sundelletal.2000.Oikos,Mustela nivalis,215.5,DEE,Carboneetal.2007.PLoSBiology,Microtus rossiameridonalis,28.2,6.3,Gorecki.1965.ActaTheriologica,0.0002,0.009,Weasel-Vole,Abundance data from separate study (Hanskietal.2001.Ecology) as this was an experiment carried out in the field. Energy data from Microtus arvalis
+189,Daleetal.1994.JournalofAnimalEcology,Canis lupus,25920,DEE,Menziesetal.2022.CanadianJournalZoology,Rangifer tarandus,102400,7.3,Cooketal.2021.CanadianJournalofZoology,7.56E-08,2.34E-06,Wolf-Caribou,
+853,Messier.1994.Ecology,Canis lupus,25920,DEE,Menziesetal.2022.CanadianJournalZoology,Alces alces,462000,8.1,Schwartzetal.1988.Alces,1.71E-07,2.49E-06,Wolf-Moose,
+1693,Vucetich.2002.Ecology,Canis lupus,25920,DEE,Menziesetal.2022.CanadianJournalZoology,Alces alces,462000,8.1,Schwartzetal.1988.Alces,8.98E-07,4.38E-06,Wolf-Moose,
+555,Holling.1959.CanadianJournalofZoology,Blarina brevicauda,40.5848,Basal,Buckner.1964.CanadianJournalofZoology,Neodiprion sertifer,0.06,5,Buckner.1964.CanadianJournalofZoology,1.11E+01,1.42E+02,Shrew-Sawfly,
+2334,Chan2017,Lynx canadensis,6048,DEE,Menziesetal.2022.CanadianJournalZoology,Lepus americanus,1600,4.5,Menziesetal.2022.CanadianJournalZoology,5.40E-05,1.21E-04,Lynx-Hare,
+2335,Chan2017,Canis latrans,4511,DEE,Carboneetal.2007.PLoSBiology,Lepus americanus,1600,4.5,Menziesetal.2022.CanadianJournalZoology,5.40E-05,1.21E-04,Coyote-Hare,
